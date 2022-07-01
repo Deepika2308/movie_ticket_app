@@ -1,31 +1,3 @@
-import Ante from "./Posters/ante.jpg";
-import Bhool from "./Posters/bhool.jpg";
-import Buddies from "./Posters/buddies.jpg";
-import Charlie from "./Posters/charlie.jpg";
-import DoctorStrange from "./Posters/doctorstrange.jpg";
-import Elvis from "./Posters/elvis.jpg";
-import Gangster from "./Posters/gangster.jpg";
-import Harikathe from "./Posters/harikathe.jpg";
-import Heaven from "./Posters/heaven.jpg";
-import Janhit from "./Posters/janhit.jpg";
-import Jugjugg from "./Posters/jugjugg.jpg";
-import Jurassic from "./Posters/jurassic.jpg";
-import Kochaal from "./Posters/kochaal.jpg";
-import Lightyear from "./Posters/lightyear.jpg";
-import Maayon from "./Posters/maayon.jpg";
-import Major from "./Posters/major.jpg";
-import Maamanidhan from "./Posters/mamanidhan.jpg";
-import Pattampoochi from "./Posters/pattampoochi.jpg";
-import Rish from "./Posters/rish.jpg";
-import SevenDays from "./Posters/sevendays.jpg";
-import SherBagga from "./Posters/sherbagga.jpg";
-import Sherdil from "./Posters/sherdil.jpg";
-import Thurthu from "./Posters/thurthu.jpg";
-import TopGun from "./Posters/topgun.jpg";
-import Trivikrama from "./Posters/trivikrama.jpg";
-import Vaashi from "./Posters/vaashi.jpg";
-import Vikram from "./Posters/vikram.jpg";
-
 
 let moviesList =[
     {

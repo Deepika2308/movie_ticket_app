@@ -26,6 +26,7 @@ import {
   useParams,
   useHistory,
 } from "react-router-dom";
+import {API} from './global.js';
 
 let intervalId;
 let moviePerPage = 5;
@@ -325,7 +326,7 @@ function Signin() {
                 loginPassword: password,
               };
 
-              fetch("http://127.0.0.1:3001/login", {
+              fetch(`${API}/login`, {
                 method: "POST",
                 body: JSON.stringify(creds),
                 headers: { "content-type": "application/json; charset=UTF-8" },
@@ -378,7 +379,7 @@ function CreateAccount() {
       password: password,
     };
 
-    fetch("http://127.0.0.1:3001/addUser", {
+    fetch(`${API}/addUser`, {
       method: "POST",
       body: JSON.stringify(newUser),
       headers: { "content-type": "application/json; charset=UTF-8" },
@@ -475,7 +476,7 @@ function CompleteMovieDetailsAndBooking() {
   let [actorsArr, setActorsArr] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3001/movies/" + id)
+    fetch(`${API}/movies/`+id)
       .then((response) => response.json())
       .then((data) => {
         setOneMovie(data);
@@ -578,7 +579,7 @@ function LocationAndDate() {
   }
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3001/getCities")
+    fetch(`${API}/getCities`)
       .then((response) => response.json())
       .then((data) => setCities(data));
   });

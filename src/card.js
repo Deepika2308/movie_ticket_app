@@ -1,13 +1,14 @@
 import {Card,Button} from 'react-bootstrap';
 import {useHistory} from "react-router-dom";
 import {useEffect, useState} from 'react';
+import {API} from './global.js';
 
 function MovieCard({startNum,endNum}){
 
   let[movieList,setMovieList] = useState([]);
 
   let refreshMovieList = () => {
-    fetch("http://127.0.0.1:3001/getMovies")
+    fetch(`${API}/getMovies`)
     .then((data) => data.json())
     .then((mvs) => setMovieList(mvs))
     .catch(error => console.log(error));
