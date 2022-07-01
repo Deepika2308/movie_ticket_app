@@ -1,0 +1,310 @@
+.navbar-nav {
+  column-gap: 4em;
+  row-gap: 12px;
+}
+
+.brand-name {
+  margin-left: 8vw;
+}
+
+.login-link {
+  font-size: 14.5px;
+}
+
+.navbar-nav a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover {
+  color: orange !important;
+}
+
+.navbar-toggler-icon {
+  width: 1em !important;
+  height: 1em !important;
+  margin-left: -8px;
+  margin-bottom: 6px;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.slider-images {
+  background-color: black;
+  height: 15em;
+  width: 70vw;
+  clip-path: polygon(6% 0%, 100% 0%, 92% 100%, 0% 100%);
+}
+
+.cashback-offers {
+  width: 22vw;
+}
+
+.cashback-offer {
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+.offer-content {
+  height: 100%;
+  width: 22vw;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 2em;
+  text-align: center;
+}
+
+.line1,
+.line2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.line2 {
+  font-style: italic;
+}
+
+.div-containing-img {
+  width: 100%;
+  height: 100%;
+}
+
+.div-containing-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.div-containing-img {
+  animation: fade 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.div-containing-none {
+  display: none;
+}
+
+.rightArrow,
+.leftArrow {
+  align-items: center;
+}
+
+.react-rightArrow:hover,
+.react-leftArrow:hover {
+  color: orange;
+}
+
+.movies-span {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.booking-container {
+  margin-top: 4em;
+}
+
+hr {
+  color: orange;
+  height: 2px;
+}
+
+.movies-header {
+  position: relative;
+  background-color: white;
+  width: 7em;
+  bottom: 2.3em;
+  left: 45%;
+}
+
+.card-img {
+  width: 12em;
+  height: 18em;
+  object-fit: cover;
+}
+
+.book-button {
+  color: black !important;
+  width: 5em;
+}
+
+.current-movies {
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.card-title {
+  max-width: 8em;
+}
+
+.card-body {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 6px;
+}
+
+.rightArrow-booking-section,
+.leftArrow-booking-section {
+  align-items: center;
+}
+
+.rightArrow-booking-section:hover,
+.leftArrow-booking-section:hover {
+  color: orange;
+}
+
+.section-footer {
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 11px;
+  color: grey;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 4em;
+}
+
+div[class^="foo"] {
+  flex-direction: column;
+  gap: 10px;
+}
+
+div[class^="foo"]:hover {
+  color: white;
+}
+
+.login-container {
+  position: relative;
+  top: 3em;
+}
+
+.login-form {
+  flex-direction: column;
+  gap: 2em;
+  position: relative;
+}
+
+#login-text,#signup-text {
+  font-size: 25px;
+}
+
+.forgot-signup-links {
+  justify-content: space-between;
+}
+
+.forgot-signup-links a {
+  text-decoration: none;
+}
+
+.forgot-signup-links a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.signup-container{
+    position:relative;
+    top:2em;  
+}
+
+.signup-form{
+    position:relative;
+    flex-direction:column;
+    gap:2em;
+    margin-bottom:3em;
+    width:20em;
+}
+
+.sign-in-error{
+  display:flex;
+  background-color:red;
+  color:white;
+  height:2em;
+  justify-content: center;
+  align-items:center;
+  font-weight:500;
+}
+
+#navigation-links{
+  margin-right:8vw;
+}
+
+.all-details-movie{
+  background-color: black;
+  height:23em;
+}
+
+.poster-and-details{
+  width: 100%;
+  height: 100%;
+  justify-content:center;
+  gap:5%;
+}
+
+.left-img img{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+
+.right-details{
+  flex-direction: column;
+  font-size:14px;
+  align-items: flex-start;
+  color:white;
+}
+
+.movie-title{
+  font-size:24px;
+  font-weight: 500;
+}
+
+.theatres-date{
+  margin-top:3em;
+  justify-content:center;
+}
+
+.location-date{
+  flex-direction:column;
+}
+
+.theatrename-and-showtime{
+  justify-content: space-between;
+}
+
+.shows a{
+  text-decoration: none;
+}
+
+.shows a:hover{
+  color: orange;
+}
+
+.shows{
+  gap: 19px;
+  font-size: 14px;
+}
+
+.theatre-container{
+  flex-direction: column;
+  gap: 2em;
+}
+
+.construction img{
+  width:70%;
+  margin-top:2em;
+}
